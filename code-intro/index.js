@@ -34,7 +34,7 @@
 
 // CODE HERE
 
-
+let speed = 25
 
 
 
@@ -56,7 +56,8 @@
 
 // CODE HERE
 
-
+speed = 500
+console.log(speed)
 
 
 
@@ -77,7 +78,7 @@
 
 // CODE HERE
 
-
+let faveSnack = `Nerds Clusters`
 
 
 
@@ -96,7 +97,7 @@
 
 // CODE HERE
 
-
+let faveDrink = `DrPepper Cream Soda`
 
 
 
@@ -116,7 +117,7 @@
 
 // CODE HERE
 
-
+const private = true
 
 
 
@@ -148,10 +149,11 @@
 
 // CODE HERE
 
-
-
-
-
+let netflix = 15;
+let hulu = 7;
+let disneyPlus = 5;
+let youTubePremium = 10;
+let peaCock = 10;
 
 ///// PROBLEM 7 /////
 /*
@@ -166,7 +168,8 @@
 
 // CODE HERE
 
-
+let total = netflix + hulu + disneyPlus + youTubePremium + peaCock;
+    console.log(total)
 
 
 
@@ -190,7 +193,9 @@
 
 // CODE HERE
 
-
+hulu -= 7;
+peaCock -= 5;
+netflix -= 7;
 
 
 
@@ -208,8 +213,8 @@
 
 // CODE HERE
 
-
-
+let newTotal = netflix + hulu + disneyPlus + youTubePremium + peaCock
+console.log(newTotal)
 
 ///// PROBLEM 9: Bonus Section /////
 /*
@@ -222,8 +227,8 @@
     and compare the numbers.
 */
 
-// console.log('Total: ', total)
-// console.log('New Total: ', newTotal)
+console.log('Total: ', total)
+console.log('New Total: ', newTotal)
 
 /*
     What is happening here? When we run a file 
@@ -264,9 +269,11 @@
 
 // CODE HERE
 
-asdf
+let savings = total-newTotal
+let savingsPercentage = ((newTotal / total)-1)*-100
 
-
+console.log(savings)
+console.log(savingsPercentage)
 
 
 
